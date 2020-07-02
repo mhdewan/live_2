@@ -1235,7 +1235,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 	font-family: 'FontAwesome';
 }
 .tg-navigation .join{
-    min-width: 100px;
+    min-width: 150px;
     padding: 0 10px;
     position: relative;
     text-align: center;
@@ -2654,8 +2654,8 @@ body.tg-home .tg-brandsslider .owl-pagination{padding: 30px 0 0;}
 	border-radius:3px;
 }
 .tg-innerbanner .tg-formtheme fieldset{position: static;}
-.tg-innerbanner .tg-formsearch fieldset .tg-select{width: 18%;}
-.tg-innerbanner .tg-formsearch fieldset .form-control{width: 28%;}
+.tg-innerbanner .tg-formsearch fieldset .tg-select{width: 20%;}
+.tg-innerbanner .tg-formsearch fieldset .form-control{width: 60%;}
 .tg-pagehead{
 	width: 100%;
 	float: left;
