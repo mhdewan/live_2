@@ -1860,6 +1860,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 	margin-top:-120px;
 	position: relative;
 }
+/*
 .dc-workdetails-holder:after{
 	left: 0;
 	top: auto;
@@ -1871,6 +1872,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 	background-size: 15px 40%;
 	background-image: linear-gradient(to right, transparent 50%, #ddd 50%);
   }
+*/
 .dc-workdetails{
 	float: left;
 	width: 100%;
@@ -2032,7 +2034,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 .tg-directpost:nth-child(even){padding-left: 15px;}
 .tg-directpostimg{
 	float: left;
-	margin: 0 20px 0 0;
+	margin: 0px 10px 0 0;
 	position: relative;
 }
 .tg-directpostimg figcaption{
@@ -2076,12 +2078,30 @@ body.tg-home .tg-main{padding: 20px 0;}
 	line-height: 21px;
 	text-transform: capitalize;
 }
-.tg-subjects{
+.tg-directposthead h2{
+    font-size: 26px;
+    line-height: 21px;
+	text-transform: capitalize;
+    margin:10px 0;
+}
+.tg-sub{
 	width: 100%;
 	float: left;
 	font-size: 13px;
 	line-height: 16px;
 	padding: 7px 0;
+}
+.tg-subjects{
+	width: 50%;
+	float: left;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 7px 0;
+}
+.tg-subjects span{
+    font-size: 14px;
+    padding-right: 5px;
+    font-weight: bold;
 }
 .tg-directposthead .tg-stars{margin: 4px 0 3px;}
 /*==============================================
@@ -3193,7 +3213,7 @@ body.tg-home .tg-leftarea {
 .tg-detailpage .tg-description p:last-child{margin: 0;}
 .tg-detailpage .tg-btntext{
 	width: auto !important;
-	display: inline-block !important;
+	display: none !important;
 }
 .tg-socialarea{
 	width: 100%;
