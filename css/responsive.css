@@ -93,6 +93,8 @@
 	.tg-servicesinfo {width: 25%;}
 }
 @media (max-width:991px){
+    .tg-subjects{width: 100% !important; line-height: 22px !important;}
+    .tg-directposthead h2{font-size: 18px !important;}
 	.tg-navigation > ul > li{padding:0 11px;}
 	.tg-login .tg-admin {padding: 5px 0 0 5px;}
 	.tg-formsearch{padding:30px;}

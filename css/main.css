@@ -2091,6 +2091,11 @@ body.tg-home .tg-main{padding: 20px 0;}
 	line-height: 16px;
 	padding: 7px 0;
 }
+.tg-sub span{
+    font-size: 14px;
+    padding-right: 5px;
+    font-weight: bold;
+}
 .tg-subjects{
 	width: 50%;
 	float: left;
